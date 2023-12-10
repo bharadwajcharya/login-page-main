@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body{
+  position: absolute;
+/* width: 1600px;
+height: 1024px; */
+
+background: #010c0abb;
+border-radius: 50px;
+
+}
+.avatar{
+  
+position: absolute;
+width: 350px;
+height: 128px;
+left: 231px;
+top: 175px;
+}
+.welcome{
+  position: absolute;
+width: 331px;
+height: 83px;
+left: 250px;
+top: 325px;
+
+font-family: 'Risque';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 83px;
+
+color:rgb(255, 17, 0);
+}
+.lamp{
+  
+position: absolute;
+width: 174px;
+height: 276px;
+left: 948px;
+top: -37px;
+}
+
+.curve{
+  
+box-sizing: border-box;
+
+
+position: absolute;
+width: 694.59px;
+height: 1024px;
+left: 905.41px;
+top: 0px;
+
+/* background: #FFC42A; */
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.boy{
+  box-sizing: border-box;
+
+position: absolute;
+width: 380px;
+height: 411px;
+left: 986px;
+top: 280px;
+
+
+border: 1px solid #000000;
+z-index: +1;
+}
+.inputwrapper{
+  width: 300px;
+}
+::placeholder{
+  color: rgb(255, 255, 255);
+}
+
+.inputwrapper1{
+  width: 300px;
+}
+.inputwrapper input{
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 173px;
+  top: 451px;
+  bottom: 10px;
+  padding: 0;
+  border-radius: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+ 
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+.input input{
+  position: absolute;
+width: 115px;
+height: 30px;
+left: 173px;
+top: 570px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+background-color: transparent;
+
+}
+.btn button{
+  transition: width 2s, height 2s, transform 2s;
+  
+
+  width: 300px;
+  color: #00523F;
+  width: 483px;
+  height: 76px;
+  left: 173px;
+  top: 693px;
+  position: absolute;
+
+
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 30px;
+color: #00523F;
+  
+  background: #FFC42A;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.for{
+  position: absolute;
+width: 195px;
+height: 28px;
+left: 463px;
+top: 651px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.igicon .fab{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 256px;
+  top: 949px;
+}
+@media (max-width: 700px){
+  .vertical-bar{
+      display: none;
+  }
+  .banner-title{
+      margin: 80px 40px;
+  }
+  .banner-title h1{
+      font-size: 50px;
+  }
+}  
+.btn ::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: rgb(235, 235, 238);
+  display: block;
+  margin: auto;
+  transition: .5s;
+}
+.btn :hover::after{
+  width: 100%;
+  transition: width 1s, height 1s, transform -1s;
+  
+}
